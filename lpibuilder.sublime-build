@@ -1,0 +1,5 @@
+{
+    "env": {"VERBOSE":"br0", "QUICK":"1"},
+    "cmd": ["$packages/lpibuilder/lpibuilder.py","$file_path"],
+    "file_regex":"(/.*):([0-9]*):.*"
+}
