@@ -1,5 +1,5 @@
 {
-  "env": {"VERBOSE":"br0", "QUICK":"1"},
+  "env": {"VERBOSE":"br0", "QUICK":"1", "OBJ":"/tmp/subl_obj"},
   "cmd": ["python","$packages/sublime-lpibuilder/lpibuilder.py","$file_path"],
   //"file_regex":"(/.*):([0-9]*):.*",
   //"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",    
